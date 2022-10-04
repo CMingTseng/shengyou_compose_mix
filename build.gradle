@@ -1,0 +1,39 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+//    //https://www.slideshare.net/shengyou/overview-of-kotlin-multiplatform
+//    //https://plugins.gradle.org/plugin/org.jetbrains.compose
+buildscript {
+    ext {
+        agp_version="7.0.0"
+        kotlin_version = "1.6.10"
+        compose_version = "1.1.0"
+    }
+    repositories {
+        google()
+        gradlePluginPortal()
+        mavenCentral()
+        maven {
+            url "https://plugins.gradle.org/m2/"
+        }
+        maven {
+            url "https://maven.pkg.jetbrains.space/public/p/compose/dev"
+        }
+    }
+    dependencies {
+        classpath "com.android.tools.build:gradle:$agp_version"
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+//        classpath "org.jetbrains.compose:compose-gradle-plugin:1.2.0-alpha01-dev770"
+        classpath "org.jetbrains.compose:compose-gradle-plugin:$compose_version"
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+
+//    plugins {
+//        kotlin("multiplatform").version(extra["kotlin.version"] as String)
+//        id("org.jetbrains.compose").version(extra["compose.version"] as String)
+//    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

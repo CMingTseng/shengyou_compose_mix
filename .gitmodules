@@ -1,0 +1,6 @@
+[submodule "compose-for-desktop-demo"]
+	path = compose-for-desktop-demo
+	url = git@github.com:CMingTseng/compose-for-desktop-demo.git
+[submodule "jetpack-compose-demo"]
+	path = jetpack-compose-demo
+	url = git@github.com:CMingTseng/jetpack-compose-demo.git
