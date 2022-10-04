@@ -1,4 +1,4 @@
-package io.kraftsman.compose.android.ui.theme
+package io.kraftsman.compose.ui.theme
 
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.Shapes

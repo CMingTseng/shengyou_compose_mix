@@ -1,8 +1,10 @@
+package io.kraftsman.compose.ui
+
 import androidx.compose.material.MaterialTheme
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.tooling.preview.Preview
-import io.kraftsman.compose.android.ui.components.Ball
-import io.kraftsman.compose.android.ui.components.LotteryBoard
+import io.kraftsman.compose.ui.components.Ball
+import io.kraftsman.compose.ui.components.LotteryBoard
 
 @Preview(showBackground = true)
 @Composable

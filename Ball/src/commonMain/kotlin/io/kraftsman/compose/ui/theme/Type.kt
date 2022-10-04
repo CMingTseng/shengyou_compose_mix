@@ -1,4 +1,4 @@
-package io.kraftsman.compose.android.ui.theme
+package io.kraftsman.compose.ui.theme
 
 import androidx.compose.material.Typography
 import androidx.compose.ui.text.TextStyle
