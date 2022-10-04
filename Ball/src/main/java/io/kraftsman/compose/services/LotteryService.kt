@@ -1,4 +1,4 @@
-package io.kraftsman.compose.android.services
+package io.kraftsman.compose.services
 
 class LotteryService {
     fun generate(amount: Int = 49, take: Int = 6): List<Int> =
