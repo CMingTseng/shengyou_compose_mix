@@ -59,11 +59,3 @@ fun LotteryBoard() {
         }
     }
 }
-
-@Preview(showBackground = true)
-@Composable
-fun LotteryBoardPreview() {
-    MaterialTheme {
-        LotteryBoard()
-    }
-}
