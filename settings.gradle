@@ -19,4 +19,6 @@ include ':app'
 project(":app").projectDir = file("./jetpack-compose-demo/app")
 include ':desktop'
 project(":desktop").projectDir = file("./compose-for-desktop-demo/desktop")
+//export library
+include ':Ball'
 
